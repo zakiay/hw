@@ -1,0 +1,1 @@
+This is a repo for me to add my solutions to the exercices from Learn Python The Hard Way
