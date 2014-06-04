@@ -6,12 +6,14 @@ class Song(object):
 		for line in self.lyrics:
 			print line
 
+	def rap(self):
+		print self.lyrics
+
 happy_bday = Song(["Happy, BDay",
 					"I heart you",
 					"So I'll stop right there"])
 
-yeezy = Song(["All I need is sweet and sour sauce",
-				"One good girl is worth a thousand chickens"])
+yeezy = Song("One good girl is worth a thousand chickens")
 
 happy_bday.sing()
-yeezy.sing()
+yeezy.rap()
