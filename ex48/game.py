@@ -25,5 +25,5 @@ class lexicon(object):
 					full_list.append(('number', n))
 				except ValueError:
 					full_list.append(('error', words[i]))
-
+ 
 		return full_list
