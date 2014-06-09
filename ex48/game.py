@@ -5,7 +5,7 @@ class lexicon(object):
 		["verb", "stop"], ["verb", "kill"], ["verb", "eat"], ["stop", "the"],
 		["stop", "in"], ["stop", "of"], ["stop", "from"], ["stop", "at"],
 		["stop", "it"], ["noun", "door"], ["noun", "bear"],
-		["noun", "princess"], ["noun", "cabinet"]]
+		["noun", "princess"], ["noun", "cabinet"]] 
 
 		words = sentence.split(' ')
 
