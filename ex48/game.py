@@ -1,11 +1,10 @@
 class lexicon(object):
 	def scan(self, sentence):
 		keywords = [["direction", "north"], ["direction", "south"],
-		["direction", "east"], ["direction", "west"], ["direction", "left"],
-		["direction", "right"], ["direction", "up"], ["direction", "down"],
-		["verb", "go"], ["verb", "stop"], ["verb", "kill"], ["verb", "eat"],
-		["stop", "the"], ["stop", "in"], ["stop", "of"], ["stop", "from"], 
-		["stop", "at"], ["stop", "it"], ["noun", "door"], ["noun", "bear"],
+		["direction", "east"], ["direction", "west"], ["verb", "go"], 
+		["verb", "stop"], ["verb", "kill"], ["verb", "eat"], ["stop", "the"],
+		["stop", "in"], ["stop", "of"], ["stop", "from"], ["stop", "at"],
+		["stop", "it"], ["noun", "door"], ["noun", "bear"],
 		["noun", "princess"], ["noun", "cabinet"]]
 
 		words = sentence.split(' ')
@@ -28,4 +27,3 @@ class lexicon(object):
 					full_list.append(('error', words[i]))
 
 		return full_list
-
